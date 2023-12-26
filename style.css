@@ -1,0 +1,446 @@
+body{
+padding: 0px;
+margin: 0px;
+font-family: 'Nunito';
+background: #00252c;
+}
+
+@media only screen and (min-width: 768px){
+#title{
+position: absolute;
+display: float;
+float:left;
+}
+
+
+
+
+}
+
+
+
+p, h1, div, span{
+font-family: 'Nunito';
+}
+
+a{
+text-decoration: none;
+}
+
+.anim{
+margin-top: -10px;
+transition: .8s;
+transform: translateX(-340px);
+}
+
+html{
+scroll-behaviour: smooth;
+}
+
+h1{
+margin-top: 40px;
+}
+#header{
+width: 100%;
+height: 70px;
+margin-top: 5px;
+background: transparent;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap: 40px;
+font-family: 'Nunito';
+}
+
+#logo{
+width: 60px;
+height: 60px;
+margin-left: 5px;
+}
+
+#title{
+display: inline;
+font-size: 25px;
+margin-left: -60px;
+margin-top: 14px;
+color: #FDF517;
+}
+
+#i{
+margin-top: 18px;
+font-size: 25px;
+color: #FDF517;
+}
+
+#intro{
+width: 100%;
+height: 200px;
+margin-top: 60px;
+color: #0CD7EF;
+}
+
+#intro > h1{
+margin-left: 30px;
+font-family: Verdana;
+font-weight: 700;
+}
+
+
+
+#g{
+width: 90%;
+height: 300px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap: 20px;
+overflow: hidden;
+}
+
+#g > img{
+width: 320px;
+height: 300px;
+transition: .8s;
+}
+
+#worship{
+width: 100%;
+height: 250px;
+margin-top: -20px;
+}
+#totop{
+position: absolute;
+margin-top: 130px;
+}
+#pc{
+width: 100%;
+height: auto;
+background: transparent;
+display: grid;
+grid-template-rows: auto auto;
+grid-gap: 20px;
+margin: 0 auto;
+text-align: center;
+}
+
+.heading{
+font-size: 30px;
+font-family: 'Verdana';
+color: #0cd7ef;
+font-weight: 690;
+text-align: center;
+line-height: 30px;
+margin-bottom: 15px;
+}
+
+#cover{
+width: 100%;
+height: 290px;
+}
+
+.btn{
+width:150px;
+height: 40px;
+border-radius: 50px;
+font-weight: 600;
+font-size: 15px;
+font-family: 'Nunito';
+margin-left: 30%;
+color: black;
+border: 2px transparent;
+background: #0CD7EF;
+text-align: center;
+transition: .2s;
+}
+
+button:hover{
+opacity: 0.5;
+}
+.hued{
+width: 70%;
+height: 250px;
+border-radius: 5px;
+background: transparent;
+display: grid;
+grid-template-columns: auto auto auto;
+margin-left: 5%;
+grid-column-gap: 10px;
+}
+
+#hue{
+width: 95%;
+height: auto;
+margin-left: 2.5%;
+border-radius: 5px;
+background: #00353F;
+margin: 0 auto;
+padding-bottom: 10px;
+}
+
+.sq{
+width: 100px;
+height: 100px;
+border-radius: 5px;
+background: #365B62;
+padding: 2px;
+text-align: center;
+transition: .3s;
+}
+
+.sq:hover{
+background: #00424E;
+}
+.sq > h1{
+color: #FDF517;
+margin-top: 15px;
+}
+
+
+.sq > p{
+width: 100%;
+font-weight: 500;
+color: #FDF517;
+margin-top: -20px;
+}
+
+#gradient{
+width: 100%;
+height: 200px;
+position: static;
+}
+
+#todown{
+margin-bottom: -50px; 
+position: absolute;
+}
+
+#h{
+width: 100%;
+height: 240px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.text{
+font-weight: 500;
+color: white;
+text-align: center;
+margin-top: 10px;
+}
+
+.bg{
+width: 100%;
+height: auto;
+padding-block: 20px;
+margin-top: -10px; 
+border-top-left-radius: 20px;
+border-top-right-radius: 20px; 
+}
+
+  #g > i{
+  color: #FDF517;
+  font-size: 45px;
+  margin-top: 120px;
+  position: absolute;
+  }  
+  
+  #li{
+  margin-left: -8px;
+  }
+  #ri{
+  margin-left: 290px;
+  }
+
+.service{
+width: 90%;
+height: 100px;
+border-radius: 5px;
+background: #00353F;
+margin-left: 5%;
+margin-top: 10px;
+}
+
+.inner{
+width: auto;
+height: auto;
+display: grid;
+grid-template-rows: auto auto auto;
+grid-gap: 0px;
+}
+.days{
+font-weight: 500;
+font-size: 20px;
+color: #0CD7EF;
+}
+
+.inner > i{
+color: #FDF517;
+font-size: 20px;
+}
+
+.divv{
+width: 95%;
+max-height: 300px;
+border-radius: 10px;
+background: #00353F;
+font-style: 'Nunito';
+border: 2px dotted #006376;
+margin: 0 auto;
+margin-bottom: 20px;
+vertical-align: center;
+transition: .3s;
+   }
+   
+   .divv:hover{
+  background: #00424E;
+   }
+   
+   .right > i{
+  color: #FDF517;
+  font-size: 18px;
+   }
+   
+.w3-text{
+  color: #0CD7EF;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-family: verdana;
+   }
+   
+   .w3-txt{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline;
+  margin-left: 0px; 
+   }
+   
+   .right{
+   width: auto;
+   height: auto;
+ margin-top: 10px;
+ margin-left: 35px;
+ background: transparent;
+   }
+
+.about-church{
+width: auto;
+height: auto;
+border-radius: 10px;
+background: #00353F;
+}
+
+.about-church > p{
+color: white;
+}
+
+.w3-space{
+margin-top: -10px;
+}
+
+.contact{
+width: 95%;
+height: 110px;
+border-radius: 5px;
+background: #00353F; 
+padding: 10px;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+.round{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+background: #365B62;
+text-align: center;
+padding-top: 17px;
+transform: translateY(5px);
+}
+
+.round > i{
+color: #FDF517;
+}
+
+.contact > h1{
+font-weight: 700;
+margin-top: -8px;
+margin-left: 25px;
+}{{}}
+
+.w3-verdana{
+font-family: Verdana;
+margin-top: -30px;
+}
+
+.w3-align{
+margin-top: -5px;
+}
+
+.container{
+ width: auto;
+ height: 70px;
+ padding: 0px;
+ display: inline-block;
+ transform: translateY(-35px);
+ margin-left: 90px;
+}
+
+.alt{
+width: auto;
+ height: 70px;
+ padding: 0px;
+ display: inline-block;
+ transform: translateY(35px);
+ margin-left: 20px;
+}
+
+.alt i{
+margin-right:10px;
+}
+
+.grad{
+width: 90%;
+height: 2px;
+border-radius: 2px;
+background: linear-gradient(to right, #0cd7ef, #FDF517);
+margin: 0 auto;
+}
+
+.footer{
+width: 100%;
+height: 300px;
+background: #00353F;
+
+}
+
+.message{
+width: 95%;
+height: 250px;
+background: #00353F;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+.message > textarea{
+background: #00353F;
+outline: none;
+height: 110px;
+border: 2px solid #365B62;
+border-radius: 5px;
+color: white;
+transition: .3s;
+}
+
+textarea:focus{
+border: 2px solid #0CD7EF;
+}
+
+.message button{
+margin: 0 auto;
+margin-top: 20px;
+color: black;
+margin-left: 25%;
+}
