@@ -5,16 +5,16 @@ font-family: 'Nunito';
 background: #00252c;
 }
 
+*, html{
+scroll-behavior: smooth !important;
+}
+
 @media only screen and (min-width: 768px){
 #title{
 position: absolute;
 display: float;
 float:left;
 }
-
-
-
-
 }
 
 
@@ -31,10 +31,6 @@ text-decoration: none;
 margin-top: -10px;
 transition: .8s;
 transform: translateX(-340px);
-}
-
-html{
-scroll-behaviour: smooth;
 }
 
 h1{
@@ -329,6 +325,7 @@ transition: .3s;
 width: auto;
 height: auto;
 border-radius: 10px;
+padding-block: 20px;
 background: #00353F;
 }
 
@@ -411,7 +408,7 @@ margin: 0 auto;
 
 .footer{
 width: 100%;
-height: 300px;
+height: 200px;
 background: #00353F;
 
 }
